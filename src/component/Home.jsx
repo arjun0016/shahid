@@ -5,6 +5,8 @@ import img2 from "./images/web 3.png"
 import insta from "./images/INSTA.png"
 import fb from "./images/FB.png"
 import wtsp from "./images/WTSP.png"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 import {BsWhatsapp} from "react-icons/bs"

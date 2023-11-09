@@ -2,6 +2,8 @@ import React from 'react'
 import '../styles/section.css'
 // import Slide from './Slide'
 import img2 from './images/web 3.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Section = () => {
   return (

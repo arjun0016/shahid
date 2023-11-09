@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {BsGraphUpArrow} from 'react-icons/bs'
 import {FaComputer} from 'react-icons/fa6'
 import {TbDeviceMobileShare} from 'react-icons/tb'
