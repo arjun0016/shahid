@@ -1,0 +1,38 @@
+nav{
+   width: 80%!important;
+   margin: auto;
+  
+}
+.name{
+   font-size: 30px;
+
+}
+.bar{
+   font-size: 14px;
+   font-weight: 700;
+   padding-top: 30px;
+   /* position: sticky;
+   top: 0%; */
+   display: none;
+
+
+}
+
+.icons{
+   display: flex;
+   align-items: center;
+   
+
+}
+@media screen and (max-width:991px) {
+
+   .icons{
+      display:none;
+
+   }
+   .bar{
+      display: none;
+   }
+
+   
+}

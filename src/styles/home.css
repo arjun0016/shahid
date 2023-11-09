@@ -1,0 +1,269 @@
+.caption h2{
+    font-size: 80px!important;
+    font-weight: 700!important;
+    letter-spacing: -3px;
+
+ 
+}
+.caption{
+    margin-left: 100px!important;
+    width: auto;
+}
+.name2{
+    color:#5B38E3;
+    letter-spacing: -3px;
+}
+.coma{
+    color:rgb(199, 199, 199)
+}
+.content p{
+    font-size: 22px;
+    font-weight: 500!important;
+    color:rgb(85, 85, 85);
+    width: auto;
+}
+.button .btn1{
+   height: 60px;
+   width: 150px;
+   color:white;
+   background-color: #5B38E3;
+   margin-bottom: 100px; 
+}
+.button .btn2{
+    height: 60px;
+    width: 150px;
+    color:white;
+    background-color: #03a203;
+    margin-bottom: 100px; 
+ }
+ .button .btn2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.button .btn1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.button .btn1 a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+
+.cap{
+    margin-top:100px!important;
+    margin-left: auto!important;
+    width: 100%!important;
+    height: auto;
+    display: flex;
+    
+
+}
+.imgd {
+    position: relative;
+    margin-top: -100px;
+    width: 530px;
+    height: 660px;
+    z-index: -1;
+    /* margin-left: auto!important; */
+}
+.img{
+    width:100%;
+    z-index: -1;
+}
+.lines {
+    margin-left: -1315px;
+    margin-top: -100px;
+    width: 300px;
+    height: auto;
+    z-index: -1;
+}
+.img2 {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.insta{
+    position:absolute;
+    top: 80%;
+    left:-10%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    transform: rotate(-30deg);
+}
+.fb{
+    position:absolute;
+    top: 25%;
+    left:70%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    transform: rotate(30deg);
+}.wtsp{
+    position:absolute;
+    top: 16%;
+    left:5%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    transform: rotate(-30deg);
+}
+
+@media screen and (max-width:1254px){
+
+    .caption h2{
+        font-size: 80px!important;
+        font-weight: 700!important;
+     
+    }
+    .caption{
+        margin-left: auto!important;
+        display: block;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .content p{
+        width: auto;
+    }
+    .button .btn1{
+       height: 60px;
+       width: 150px;
+       margin-bottom: 100px; 
+    }
+  
+    .cap{
+        margin-top:100px!important;
+        margin-left: auto;
+        display: block;
+    
+    }
+    .imgd {
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+        width: 100%;
+        height: 580px;
+    }
+    .img {
+        width: 540px;
+        height: 690px;
+        z-index: -1;
+    }
+    .lines {
+        /* margin-left: -1353px; */
+        display: none;
+
+    }
+    .img2 {
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+
+    .insta {
+        top: 86%;
+        left: 78%;
+    transform: rotate(30deg);
+
+    }
+    .fb {
+        top: 29%;
+        left: 63%;
+    }
+    .wtsp {
+        top: 18%;
+        left: 26%;
+    }
+    
+
+
+}
+
+
+@media screen and (max-width:786px) {
+
+    .cap{
+        margin-top:50px!important;
+        margin-left:auto!important;
+        height:auto!important;     
+        display: block;
+    
+    }
+    .img {
+        width: 500px;
+        height: 400px;
+        object-fit: contain;
+    }
+    .imgd{
+        display: flex;
+        justify-content: center;
+        margin-top:0px;
+        width:100%;
+        height: 400px; 
+    }
+    .lines{
+        display: none;
+    }
+    .button{
+        height: 50px;
+    }
+    .caption{
+        margin-left: auto!important;
+        display: block;
+        justify-content: center;
+        width: 90%;
+    }
+    .caption h2{
+        font-size: 40px!important;
+    }
+    .content p{
+        font-size: 18px;
+        font-weight: 500!important;
+        text-align: start;
+        width:auto;
+    }
+    .button .btn{
+        height: 40px;
+        width: 150px;
+        color:white;
+        background-color: #5B38E3;
+        
+     }
+     .button .btn2{
+        height: 40px;
+        width: 150px;
+        color:white;
+        background-color: #03a203;
+        
+     }
+     .br{
+        display: none;
+     }
+
+     .insta{
+        position:absolute;
+        top: 80%;
+        left:6%;
+        width: 50px;
+        height: 50px;
+        transform: rotate(-30deg);
+    }
+    .fb{
+        top: 25%;
+        left:70%;
+        width: 50px;
+        height: 50px;
+        transform: rotate(30deg);
+    }.wtsp{
+        position:absolute;
+        top: 16%;
+        left:22%;
+        width: 50px;
+        height: 50px;
+        transform: rotate(-30deg);
+    }
+
+}
