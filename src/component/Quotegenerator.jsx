@@ -41,7 +41,7 @@ function QuoteGenerator() {
   
 `;
 
-  const [vCardData, setVCardData] = useState(initialVCardData);
+  const [vCardData] = useState(initialVCardData);
 
   const handleDownload = () => {
     // Create a Blob from the VCard data
@@ -66,7 +66,6 @@ function QuoteGenerator() {
     <div className='container quote d-block justify-content-center'>
       <h1>Let's Get Started </h1>
       <button onClick={handleDownload} className='q btn btn-success mt-2'>Download</button>
-
     </div>
   );
 }
