@@ -5,41 +5,18 @@ import React, { useState } from 'react';
 
 function QuoteGenerator() {
   // Sample VCard data
-  const initialVCardData = `
-  BEGIN:VCARD
-  VERSION:3.0
-  REV:2024-01-18T10:41:24Z
-  N;CHARSET=utf-8:RASHID;MUHAMMED;;;
-  FN;CHARSET=utf-8:MUHAMMED RASHID
-  ORG;CHARSET=utf-8:Orbiz Creativez Pvt Ltd
-  TITLE;CHARSET=utf-8:BDE
-  EMAIL;INTERNET:connect@orbiz.in
-  TEL;TEL;type=CELL:+919605832177
-  ADR;WORK;POSTAL;CHARSET=utf-8:Orbiz Creativez Malappuram, Kerala Pin-676 30
-   6 India;;;;;;
-  URL;TYPE=website:
-  URL;TYPE=twitter:
-  URL;TYPE=facebook:
-  URL;TYPE=instagram:
-  URL;TYPE=youtube:
-  URL;TYPE=reddit:
-  URL;TYPE=tumblr:
-  URL;TYPE=linkedin:https://www.linkedin.com/company/orbiz-creativez/
-  URL;TYPE=whatsapp:https://wa.me/+91 9605832177
-  URL;TYPE=pinterest:
-  URL;TYPE=tiktok:
-  URL;TYPE=fbb:https://www.facebook.com/Orbizcreative?mibextid=ZbWKwL
-  URL;TYPE=1658587303instagramPng:https://instagram.com/orbizcreativez?igshid
-   =NzZlODBkYWE4Ng==
-  URL;TYPE=1656501968youtubeIconPng:https://youtube.com/@orbizcreativez?si=t9
-   myi-MmYB2-FyFr
-  URL;TYPE=web:https://orbiz.in/
-  URL;TYPE=location:https://maps.app.goo.gl/wTwtxkNTBbg7cwjG6
-  URL;TYPE=greview:https://g.page/r/CSSBke_r-2jiEB0/review
-  URL:https://bizcard.orbiz.in/MUHAMMED-RASHID
-  END:VCARD
-  
-`;
+  const initialVCardData = 
+  `BEGIN:VCARD\r\n` +
+  `VERSION:3.0\r\n` +
+  `FN:James Ross\r\n` +
+  `ORG:Company Name\r\n` +
+  `TEL:+1234567890\r\n` +
+  `EMAIL:email@example.com\r\n` +
+  `URL:http://www.example.com\r\n` +
+  `ADR:123 Main Street, City, State, ZIP Code, Country\r\n` +
+  `NOTE:Additional notes or information\r\n` +
+  `END:VCARD\r\n`;
+
 
   const [vCardData] = useState(initialVCardData);
 
